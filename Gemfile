@@ -22,9 +22,6 @@ gem 'bcrypt', '~> 3.1.7'
 # Use Rack CORS for handling Cross-Origin Resource Sharing (CORS), making cross-origin AJAX possible
 gem 'rack-cors'
 
-
-
-
 # mongodb database setup
 # bson_ext is a C extensions to accelerate Ruby BSON serialization
 gem 'mongoid', '~> 6.0'
@@ -39,7 +36,6 @@ group :production do
   gem 'uglifier'
   gem 'newrelic_rpm'
 end
-
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
